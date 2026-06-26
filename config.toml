@@ -17,6 +17,9 @@ enableGitInfo = true
 # You can remove related files with config below
 disableKinds = ['taxonomy', 'taxonomyTerm']
 
+baseURL = 'https://web-tracking.dante.tw'
+theme = 'hugo-book'
+
 title = 'Web Tracking 筆記'
 
 [markup.goldmark.renderer]
@@ -47,7 +50,7 @@ title = 'Web Tracking 筆記'
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = 'https://github.com/s3131212/web-tracking-notes'
+  BookRepo = 'https://github.com/Jeffreyhung/web-tracking-notes'
 
   # Specifies commit portion of the link to the page's last modified commit hash for 'doc' page
   # type.
@@ -59,7 +62,7 @@ title = 'Web Tracking 筆記'
   # Enable 'Edit this page' links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Path must point to the site directory.
-  BookEditPath = 'edit/master/exampleSite'
+  BookEditPath = 'edit/main/content/docs'
 
   # (Optional, default January 2, 2006) Configure the date format used on the pages
   # - In git information

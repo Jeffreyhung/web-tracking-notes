@@ -1,0 +1,15 @@
+{
+  "name": "Web Tracking 筆記",
+  "short_name": "Web Tracking 筆記",
+  "start_url": "/web-tracking-notes/",
+  "scope": "/web-tracking-notes/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/web-tracking-notes/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}
